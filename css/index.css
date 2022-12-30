@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+
+
+      --Soft-blue: hsl(215, 51%, 70%);
+      --Cyan: hsl(178, 100%, 50%);
+      --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+      --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+      --Very-dark-blue-line: hsl(215, 32%, 27%);
+      --White: hsl(0, 0%, 100%);
+}
+
+body{
+   
+    min-height: 100vh;
+    background-color: var(--Very-dark-blue-main-BG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.card{
+    
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 1rem;
+    width: 350px;
+    box-shadow: 0 0 8px 10px rgba(0,0,0, 0.2);
+}
+
+.card-container{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 1rem;
+    /* margin: 2px;
+    gap: 1.5rem; */
+}
+
+.toppart{
+    position: relative;
+    cursor: pointer;
+}
+
+.view-img{
+
+    position: absolute;
+    top: 140px;
+    right: 140px;
+
+}
+
+.equilibrium{
+    color: var(--Cyan);
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ font-size: 28px;
+}
+
+.main p{
+    font-size: 20px;
+    padding-bottom: 2rem;
+    color:var(--Soft-blue);
+
+}
+
+.dark-line{
+    
+    /* width: 100%; */
+    height: 1px;
+    background-color: var(--Very-dark-blue-line);
+    margin: 2rem;
+   
+   
+}
+
+.price-days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.price{
+
+    color: var(--Cyan);
+}
+.days{
+    color: var(--Soft-blue);
+
+}
+
+.footer{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ 
+
+}
+
+.footer img{
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50% ;
+   
+}
+
+.footer p{
+    color: var(--White);
+
+}
+
+.footer b{
+
+    color: var(--Cyan);
+    font-size: 15px;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
